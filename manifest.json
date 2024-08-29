@@ -1,0 +1,61 @@
+{
+   "manifest_version": 3,
+   "name": "Iconos a Archivos de GitHub",
+   "version": "1.0",
+   "description": "Practica de extension para cambiar los item de tus proyectos por iconos. Agregandole una apariencia más aesthetic",
+   "permissions": ["activeTab"],
+   "content_scripts": [
+      {
+         "matches": ["https://github.com/*"],
+         "js": ["content.js"],
+         "css": ["style.css"]
+      }
+   ],
+   "web_accessible_resources": [
+      {
+         "resources":[
+            "icons/php.svg",
+            "icons/javascript.svg",
+            "icons/css.svg",
+            "icons/svg.svg",
+            "icons/image.svg",
+            "icons/database.svg",
+            "icons/json.svg",
+            "icons/html.svg",
+            "icons/video.svg",
+            "icons/python.svg",
+            "icons/markdown.svg",
+            "icons/git.svg",
+            "icons/visualstudio.svg",
+            "icons/settings.svg",
+            "icons/document.svg",
+            "icons/xml.svg",
+            "icons/csharp.svg",
+            "icons/exe.svg",
+            "icons/folder.svg",
+            "icons/folder-controller.svg",
+            "icons/folder-css.svg",
+            "icons/folder-svg.svg",
+            "icons/folder-src.svg",
+            "icons/folder-images.svg",
+            "icons/folder-database.svg",
+            "icons/folder-include.svg",
+            "icons/folder-javascript.svg",
+            "icons/folder-mobile.svg",
+            "icons/folder-app.svg",
+            "icons/folder-video.svg",
+            "icons/folder-github.svg",
+            "icons/folder-project.svg",
+            "icons/folder-debug.svg",
+            "icons/folder-dist.svg"
+         ],
+         "matches": ["<all_urls>"]
+      }
+   ],
+   "icons": {
+      "128": "iconApp.png"
+   },
+   "action": {
+      "default_popup": "popup.html"
+   }
+}

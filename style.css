@@ -1,0 +1,136 @@
+.icon {
+   width: 20px;
+   height: 20px;
+   display: inline-block;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+/* icons */
+.icon-php {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/php.svg');
+}
+.icon-js {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/javascript.svg');
+}
+.icon-css {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/css.svg');
+}
+.icon-svg {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/svg.svg');
+}
+.icon-png,
+.icon-jpg,
+.icon-jpeg {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/image.svg');
+}
+.icon-sqlite,
+.icon-pdb,
+.icon-sql {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/database.svg');
+}
+.icon-json {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/json.svg');
+}
+.icon-html {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/html.svg');
+}
+.icon-mp4 {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/video.svg');
+}
+.icon-md {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/markdown.svg');
+}
+.icon-py {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/python.svg');
+}
+.icon-keep,
+.icon-gitattributes,
+.icon-gitignore {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/git.svg');
+}
+.icon-csproj,
+.icon-vb,
+.icon-sln {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/visualstudio.svg');
+}
+.icon-settings,
+.icon-config {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/settings.svg');
+}
+.icon-txt {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/document.svg');
+}
+.icon-vbproj,
+.icon-resx {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/xml.svg');
+}
+.icon-cs {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/csharp.svg');
+}
+.icon-exe {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/exe.svg');
+}
+
+/* Folders */
+/* Folders */
+/* Folders */
+.folder-folder {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/folder.svg');
+}
+.folder-controllers,
+.folder-controller {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/folder-controller.svg');
+}
+.folder-style,
+.folder-css {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/folder-css.svg');
+}
+.folder-svg {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/folder-svg.svg');
+}
+.folder-src {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/folder-src.svg');
+}
+.folder-img,
+.folder-images {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/folder-images.svg');
+}
+.folder-database,
+.folder-db {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/folder-database.svg');
+}
+.folder-includes,
+.folder-include {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/folder-include.svg');
+}
+.folder-js,
+.folder-javascript {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/folder-javascript.svg');
+}
+.folder-mob,
+.folder-mobile {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/folder-mobile.svg');
+}
+.folder-app {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/folder-app.svg');
+}
+.folder-video {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/folder-video.svg');
+}
+.icon-github,
+.folder-.github,
+.folder-github {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/folder-github.svg');
+}
+.folder-myproject,
+.folder-project {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/folder-project.svg');
+}
+.folder-debug {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/folder-debug.svg');
+}
+.folder-release,
+.folder-bin {
+   background-image: url('chrome-extension://__MSG_@@extension_id__/icons/folder-dist.svg');
+}
